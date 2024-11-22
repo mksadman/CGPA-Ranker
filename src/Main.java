@@ -6,9 +6,9 @@ public class Main {
         try {
             String filePath = "cgpa.txt";
 
-            List<Student> students = CGPARanker.loadStudents(filePath);
+            List<Student> students = Ranker.loadStudents(filePath);
 
-            CGPARanker.displayRanks(students);
+            Ranker.displayRanks(students);
         } catch (IOException e) {
             System.err.println("Error reading the file: " + e.getMessage());
         }

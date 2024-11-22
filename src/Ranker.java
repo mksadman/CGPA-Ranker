@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CGPARanker {
+public class Ranker {
     public static List<Student> loadStudents(String filePath) throws IOException {
         List<Student> students = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader(filePath));
