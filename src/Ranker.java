@@ -35,7 +35,7 @@ public class Ranker {
         int rank = 1;
         for (Student student : students) {
             double gpa = student.semesters[semesterIndex - 1];
-            if (gpa > 0) { // Only display students with valid GPA for the semester
+            if (gpa > 0) {
                 System.out.printf("%d\t%s\t%.2f\n", rank++, student.name, gpa);
             }
         }
